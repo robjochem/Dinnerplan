@@ -11,10 +11,20 @@
 
   </head>
   <body>
-	<div class="container">
+	<div class="container" id="1">
 		Wel laten zien 1
+		
+		<button id="button"></button>
+		<button id="close"></button>
+		
+		<script> $('#button').click(function() {
+		    $('#2').css('visibility', 'visible');
+		});
+		$('#close').click(function() {
+		    $('#2').css('visibility', 'hidden');
+		}); </script>
 	</div>
-	<div class="container" hidden>
+	<div class="container" id="2" hidden>
 		Niet laten zien 2
 	</div>
 	<div class="container" hidden>
