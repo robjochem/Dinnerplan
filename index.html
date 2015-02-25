@@ -11,24 +11,26 @@
 
   </head>
   <body>
-	<div class="container" id="1">
-		Wel laten zien 1
-		
-		<button id="open">Open</button>
-		<button id="close">Close</button>
-		
-		<script> $('#open').click(function() {
-		    $('#2').css('visibility', 'visible');
-		});
-		$('#close').click(function() {
-		    $('#2').css('visibility', 'hidden');
-		}); </script>
+	<div id="indexView">
 	</div>
-	<div class="container" id="2">
-		Niet laten zien 2
+	
+	<div id="headerView">
 	</div>
-	<div class="container" hidden>
-		Niet laten zien 3
+	
+	<div id="summaryView">
+	</div>
+	<div id="selectDishes">
+		<div id="allDishesView">
+		</div>
+		
+		<div id="singleDishView">
+		</div>
+	</div>
+	
+	<div id="overviewView">
+	</div>
+	
+	<div id="preparationView">
 	</div>
 
     <!-- jQuery -->
@@ -39,7 +41,15 @@
 	<!-- The application JavaScript code -->
 	<script src="js/app.js"></script>
 	<script src="js/model/dinnerModel.js"></script>
-	<script src="js/view/exampleView.js"></script>
+	
+	<script src="js/view/indexView.js"></script>
+	<script src="js/view/headerView.js"></script>
+	<script src="js/view/summaryView.js"></script>
+	<script src="js/view/allDishesView.js"></script>
+	<script src="js/view/singleDishView.js"></script>
+	<script src="js/view/overviewView.js"></script>
+	<script src="js/view/preparationView.js"></script>
+	
 	<script src="js/view/exampleViewController.js"></script>
   </body>
 </html>
