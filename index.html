@@ -14,17 +14,17 @@
 	<div class="container" id="1">
 		Wel laten zien 1
 		
-		<button id="button"></button>
-		<button id="close"></button>
+		<button id="open">Open</button>
+		<button id="close">Close</button>
 		
-		<script> $('#button').click(function() {
+		<script> $('#open').click(function() {
 		    $('#2').css('visibility', 'visible');
 		});
 		$('#close').click(function() {
 		    $('#2').css('visibility', 'hidden');
 		}); </script>
 	</div>
-	<div class="container" id="2" hidden>
+	<div class="container" id="2">
 		Niet laten zien 2
 	</div>
 	<div class="container" hidden>
