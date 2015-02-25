@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner planner</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/layout.css">
+  </head>
+  <body>
+  <div class='fill' id="exampleView">
+  	<div class="fill" id="background">
+        <div id="headergray" class="container-fluid">
+                <h1>HOMELETTE <small style="padding-left:1em"> From the best chefs in the world directly into your kitchen</small></h1>             
+        </div>
+    	<div class="container-fluid fill">
+            <div class="row fill">
+                <div id="dinnersummary" class="col-xs-3 fill">
+                                          
+                </div>
+                <div id="content" class="col-xs-9 fill" style="padding:0">
+                	<div id="searchdish">
+                        <h2> Select dish</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control" placeholder="Enter key words">
+                            </div>
+                            <div class="col-xs-2">
+                                <a href="">
+                                  <button id="button" class="btn">Search</button>
+                              </a>
+                            </div>
+                            <div class="col-xs-2">
+                                <div class="btn-group">
+                                   <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                      All courses <span class="caret"></span>
+                                   </button>
+                                   <ul class="dropdown-menu" role="menu">
+                                      <li><a href="#">All courses</a></li>
+                                      <li><a href="#">Starters</a></li>
+                                      <li><a href="#">Main courses</a></li>
+                                      <li><a href="#">Deserts</a></li>
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>
+                   	</div>
+                    
+                    <div id="alldishes" class="row"> </div>
+
+                </div> <!-- content end -->
+                
+            </div> <!-- row end -->
+    
+        </div> <!-- content + summary end -->
+    </div> <!-- header + content + summary end -->
+    </div>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="js/app.js"></script>
+	<script src="js/model/dinnerModel.js"></script>
+	<script src="js/view/exampleView.js"></script>
+	<script src="js/view/exampleViewController.js"></script>
+  </body>
+</html>
