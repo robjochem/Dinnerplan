@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{height:100%;}
+
+.fill{
+    height:100%;
+    min-height:100%;
+}
+
+#button{
+	background-color:orange;
+	color:black;	
+}
+#inactivebutton{
+	background-color:lightorange;
+	color:grey;	
+}
+
+
+#home-background{
+	background-image: url(../images/home.jpg);
+	background-size: 100%;
+}
+
+#openingtext{
+	padding-left:30px;
+	background-color:rgba(255,255,255,0.7); 
+	border:1px solid white
+}
+
+#header{
+	border:3px solid black; 
+	background-color:rgba(255,255,50,0.5);
+}
+
+#headergray{
+	border:3px solid black; 
+	background-color:rgba(50,50,50,0.2);
+}
+
+#dinnersummary{
+	border:1px solid black; 
+	background-color:white;
+}
+#content{
+	border:1px solid black; 
+	background-color:;
+}
+
+
+#namecost{
+	background-color:lightgray; 
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+#searchdish{
+	background-color:lightyellow; 
+	border-bottom: 3px solid black;
+	padding: 2%;
+	padding-left:4%;
+}
+
+#alldishes{
+	padding: 2%;
+	padding-left:4%;
+}
+
+#ingredientbox{
+	background-color:lightyellow; 
+	border: 3px solid black;
+}
+
+#ingredient{
+	padding-top: 2%;
+	padding-bottom: 2%;	
+}
+
+#dish{
+	border:3px solid black; 
+	width:146px;
+}
