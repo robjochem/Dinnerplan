@@ -1,1 +1,3 @@
-
+//indexView Object constructor
+var indexView = function (container,model) {
+}
